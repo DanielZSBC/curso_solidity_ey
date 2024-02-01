@@ -68,7 +68,7 @@ contract Aluguel {
     function receberPagamento() public payable {
         require(msg.value>=valor, "Valor insuficiente");
         contaLocador.transfer(msg.value);
-        statusPagamento.push(true);
+        statusPagamento.push(true); // com o push adiciono item no array que criei lá atrás, vazio
     }
     
     //msg.value = valor em wei enviado ao contrato
