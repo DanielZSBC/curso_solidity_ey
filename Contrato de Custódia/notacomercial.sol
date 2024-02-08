@@ -7,7 +7,7 @@ import "./titulo.sol";
 /**
  * @title NotaComercial
  * @dev Operacoes de uma nota comercial
- * @author Jeff Prestes
+ * @author Daniel Zamudio
  */
  contract NotaComercial is Titulo, Owner {
 
